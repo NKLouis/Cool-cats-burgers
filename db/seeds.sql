@@ -7,6 +7,6 @@ INSERT INTO burgers (burger_name, devoured) VALUES ('Vegan Lentil Burgers', fals
 INSERT INTO burgers (burger_name, devoured) VALUES ('Middle Eastern Chicken Burgers', true);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Jerk Turkey Burgers with Mango Slaw', true);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Edamame Veggie Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Spiced Burgers with Cucumber Yogurtr', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Spiced Burgers with Cucumber Yogurt', false);
 INSERT INTO burgers (burger_name, devoured) VALUES ('Salmon-Apple Burgers', false);
 
