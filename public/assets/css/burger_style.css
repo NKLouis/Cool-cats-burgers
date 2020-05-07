@@ -17,4 +17,60 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+  .jumbotron-fluid{
+  background-color: burlywood;
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Gochi Hand', cursive;
+  font-family: 'Crafty Girls', cursive;
+  font-family: 'Dokdo', cursive;
+  padding: 30px;
+  }
+
+  .display-4{
+
+    text-align: center;
+    border: rgb(235, 185, 61);
+    text-shadow: 1px 1px 0 rgb(243, 221, 18),
+    -1px 1px 0 rgb(240, 217, 10),
+    2px -1px 0 rgb(240, 217, 10),
+    0px 2px 0 rgb(251, 121, 14),
+    0px -2px 0 rgb(251, 121, 14),
+    -2px 0px 0 rgb(251, 121, 14),
+    2px 0px 0 rgb(251, 121, 14),
+    2px 2px 0 rgb(251, 121, 14),
+    -1px 2px 0 rgb(251, 121, 14),
+    2px -2px 0 rgb(251, 121, 14),
+    -1px -2px 0 rgb(251, 121, 14),
+    2px 1px 0 rgb(251, 121, 14),
+    -2px 1px 0 rgb(251, 121, 14),
+    2px -1px 0 rgb(251, 121, 14),
+    -2px -1px 0 rgb(251, 121, 14);
+    font-size: 70px;
+
+  }
+
+  .col{
+    background-color: white;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Gochi Hand', cursive;
+    padding-bottom: 35px;
+   
+  }
+  body{
+    background-image: url("https://i.pinimg.com/originals/e4/77/68/e477684cd4356e012afbf7dbc8235dec.png");
+  }
   
+  h2 {
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: rgb(250, 239, 139);
+  }
+
+  .change-devoured{
+    background-color: greenyellow;
+  }
+
+  .delete-burger{
+    background-color: #ff8b00;
+  }

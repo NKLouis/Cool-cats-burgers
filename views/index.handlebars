@@ -1,38 +1,54 @@
-<h1>Burgers YUM YUM!</h1>
+<div class="container">
+  <div class="row">
+    <div class="col order-last">
+      <h2>Burgers That I Would Like To Eat!</h2>
+      <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devoured=true}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
 
-<h2>Burgers that I would like to eat!</h2>
+    <div class="col">
+      <h2>Add a Burger</h2>
+      <form class="create-form">
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-      {{> burgers/burger-block devoured=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
+        <div class="form-group">
+          <label for="bu">Burger Name:</label>
+          <input type="text" id="bu" name="name">
+        </div>
 
-<h2>Burgers that I have tried!</h2>
+        <div class="form-group">
+          <label for="devoured">Devoured?</label><br>
+          <input type="radio" name="devoured" value="1" checked> Of course<br>
+          <input type="radio" name="devoured" value="0"> Not yet
+        </div>
 
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+    
+        <button type="submit" class="btn btn-warning">Add burger</button>
 
-<h2>Add a burger</h2>
-<form class="create-form">
+        <div class="gif">
+          <div class="tenor-gif-embed" data-postid="4517044" data-share-method="host" data-width="100%"
+            data-aspect-ratio="1.0"><a href="https://tenor.com/view/cheeseburger-chases-cat-gif-4517044">Cat Chases
+              Cheeseburger GIF</a> from <a href="https://tenor.com/search/cheeseburger-gifs">Cheeseburger GIFs</a></div>
+          <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+          
+        </div>
+      </form>
+    </div>
 
-  <div class="form-group">
-    <label for="bu">Burger Name:</label>
-    <input type="text" id="bu" name="name">
+    <div class="col order-first">
+      <h2>Burgers That I Have Tried!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devoured=false}}
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
   </div>
-
-  <div class="form-group">
-    <label for="devoured">devoured?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Of course<br>
-    <input type="radio" name="devoured" value="0"> Not yet
-  </div>
-
-  <button type="submit">Add burger</button>
-</form>
+</div>
