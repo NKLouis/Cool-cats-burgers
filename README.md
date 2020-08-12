@@ -5,7 +5,7 @@
 
 ## Description
 
- A restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+An application that allows a user to keep track of burgers he/she would like to eat and have already eaten it.
 
 ![](http://g.recordit.co/oPdnEJe8l0.gif)
 
