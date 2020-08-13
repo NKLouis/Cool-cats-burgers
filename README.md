@@ -1,7 +1,8 @@
-# burger
+# Cool Cat's Burgers
 
 ## Deployed Link 
-    https://whispering-bayou-29942.herokuapp.com/
+    https://whispering-bayou-29942.herokuapp.com/?
+  
 
 ## Description
 
